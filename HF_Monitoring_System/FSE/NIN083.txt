@@ -1,0 +1,28 @@
+<<DISEASES>>
+Depression
+Cancer
+Hypertension
+Coronary artery disease
+<<DISEASES>>
+
+<<HABITS>>
+Jogging
+<<HABITS>>
+
+<<PAST INTERVENTIONS>>
+Bypass
+<<PAST INTERVENTIONS>>
+
+<<DRUG TREATMENTS>>
+Cardioaspirina
+Metanfetamina
+<<DRUG TREATMENTS>>
+
+<<EDUCATION>>
+Diploma, Conservatorio, Bologna
+<<EDUCATION>>
+
+<<MARITAL STATUS>>
+Single
+<<MARITAL STATUS>>
+

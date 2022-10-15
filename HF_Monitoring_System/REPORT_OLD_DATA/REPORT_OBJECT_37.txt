@@ -1,0 +1,12 @@
+COSE DA FARE:
+finestra temporale nelle stats
+
+valori
+"BMI";"Cardiac_Auscultation";"Diastolic_Pressure_standing";"Diastolic_Pressure_supine";"Glycemia";"Heart_Rate";"Height";"Jugular Venous Pressure";"Medical report";"Physical_Activity";"Sleep_efficiency";"Sleep_quality";"Sleep_quality_scale";"Systolic_Pressure_standing";"Systolic_Pressure_supine";"Treatment_Adherence";"Weight";"Diabetes";"Obesity";"Chronic airways disease";"Depression";"Cancer";"Hypertension";"Coronary artery disease";"Smoking";"Bypass";"Gastrectomy";
+
+
+specialties:
+"Internal";"Surgery";"Pediatry";"Emergency";"Cardiology";"Endocrinology";"Gastroenterology";"Nephrology";"Pulmonology";"Neurology";"Radiology";"Anesthesiology";"Oncology";"Physiotherapy"
+
+wards:
+"Pediatry";"Geriatry";"Anesthesiology";"Cardiology";"Diagnostic img";"Gastroenterology";"General surgery";"Haematology";"Microbiology";"Nephrology";"Neurology";"Nutrition";"Oncology";"Orthopaedics";"Pharmacy";"Physiotherapy";"Radiotherapy";"Rheumatology";"Urology"

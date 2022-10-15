@@ -1,0 +1,24 @@
+<<TITLE>>
+Sleep efficiency questionnaire
+
+<<CONTENT>>
+#ID|QUESTION TEXT|ANSWER TYPE|ANSWER OPTIONS
+1|I went to bed at (hh:mm):|string
+
+2|I turned out the lights after (minutes):|number
+
+3|I fell asleep in (minutes):|number
+
+4|I woke up ___ times during the night|number
+
+5|the total duration of these awakenings was (minutes):|number
+
+6|After awakenings for the last time i was in bed for (minutes):|number
+
+7|I got up at (hh:mm):|string
+
+<<SCORE>>
+(DateDiff("n", "{1}", "{7}")-({2}+{3}+{5}+{6}))/DateDiff("n", "{1}", "{7}") * 100
+
+
+<<EOF>>

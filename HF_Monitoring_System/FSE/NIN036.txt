@@ -1,0 +1,34 @@
+<<DISEASES>>
+Diabetes
+Obesity
+Chronic airways disease
+<<DISEASES>>
+
+
+<<HABITS>>
+Smoking
+<<HABITS>>
+
+
+<<PAST INTERVENTIONS>>
+Plastic surgery
+Gastrectomy
+<<PAST INTERVENTIONS>>
+
+
+
+<<DRUG TREATMENTS>>
+Insulin
+<<DRUG TREATMENTS>>
+
+
+
+<<EDUCATION>>
+Bachelor degree, Nutrition and dietetics, Iowa
+<<EDUCATION>>
+
+
+
+<<MARITAL STATUS>>
+married
+<<MARITAL STATUS>>

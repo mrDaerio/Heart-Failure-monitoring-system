@@ -1,0 +1,30 @@
+<<DISEASES>>
+Diabetes
+Obesity
+Chronic airways disease
+Depression
+Chronic renal failure
+<<DISEASES>>
+
+<<HABITS>>
+Smoking
+PC nerding
+<<HABITS>>
+
+<<PAST INTERVENTIONS>>
+
+<<PAST INTERVENTIONS>>
+
+<<DRUG TREATMENTS>>
+Omeprazolo
+<<DRUG TREATMENTS>>
+
+
+<<EDUCATION>>
+PHD, Snack science, Università della strada
+<<EDUCATION>>
+
+
+<<MARITAL STATUS>>
+engaged
+<<MARITAL STATUS>>

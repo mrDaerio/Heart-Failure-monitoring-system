@@ -1,0 +1,39 @@
+<<TITLE>>
+Sleep quality index questionnaire
+
+<<CONTENT>>
+#ID|QUESTION TEXT|ANSWER TYPE|ANSWER OPTIONS
+1|During the past month, when have you usualyly gone to bed at night? (hh:mm)|string
+
+2|During the past month, how long (in minutes) has it taken you to fall asleep each night?|combo|< 15 minutes = 0; 16-30 minutes = 1; 31-60 minutes = 2; > 60 minutes = 3
+
+3|During the past month, what time have you usually gotten up in the morning? (hh:mm)|string
+
+4|During the past month, how many hours of actual sleep did you get at night?|number
+
+5|During the past month, how often have you had trouble sleeping because you:
+
+	5.a|Cannot get to sleep whitin 30 minutes|combo|Not during the past month = 0;Less then once in a week = 1;Once or twice a week = 2;Three or more times a week = 3
+
+	5.b|Wake up in the middle of the night or early morning|combo|Not during the past month = 0;Less then once in a week = 1;Once or twice a week = 2;Three or more times a week = 3
+
+	5.c|Have to get up to use the bathroom|combo|Not during the past month = 0;Less then once in a week = 1;Once or twice a week = 2;Three or more times a week = 3
+	5.d|Cannot breathe comfortably|combo|Not during the past month = 0;Less then once in a week = 1;Once or twice a week = 2;Three or more times a week = 3
+	5.e|Cough or since loudly |combo|Not during the past month = 0;Less then once in a week = 1;Once or twice a week = 2;Three or more times a week = 3
+	5.f|feel too cold|combo|Not during the past month = 0;Less then once in a week = 1;Once or twice a week = 2;Three or more times a week = 3
+	5.g|feel too hot|combo|Not during the past month = 0;Less then once in a week = 1;Once or twice a week = 2;Three or more times a week = 3
+	5.h|had bad dreams|combo|Not during the past month = 0;Less then once in a week = 1;Once or twice a week = 2;Three or more times a week = 3
+	5.i|have pain|combo|Not during the past month = 0;Less then once in a week = 1;Once or twice a week = 2;Three or more times a week = 3
+	5.j|Other reasons, please describe|string
+	5.j.1|During the past month, how often have you had trouble sleeping because of this?|combo|Not during the past month = 0;Less then once in a week = 1;Once or twice a week = 2;Three or more times a week = 3
+6|During the past month how would you rate your sleep quality overall?|combo|Very good = 0; Fairly good = 1; Fairly bad = 2; Very bad = 3
+intestazione|During the past month , how often have you:
+7.|taken medicine (prescribed or "over the counter") to help you sleep?|combo|Not during the past month = 0;Less then once in a week = 1;Once or twice a week = 2;Three or more times a week = 3
+8.|had trouble staying awake while driving, eating meals, or engaging in social activity|combo|Not during the past month = 0;Less then once in a week = 1;Once or twice a week = 2;Three or more times a week = 3
+9.|how much of a problem as it been for you to keep up enough enthusiasm to get things done|combo|No problem at all = 0;Only a very slight problem = 1;Somewhat of a problem = 2;A very big problem = 3
+
+<<SCORE>>
+{6} + (({2}+{5.a})\2 + (({2}+{5.a}) Mod 2)) -({4}>6 and {4}<=7)*1-({4}>=5 and {4}<=6)*2-({4}<5)*3 -(({4}/DateDiff("n", "{1}", "{3}")*100)>75 and ({4}/DateDiff("n", "{1}", "{3}")*100)<=85)*1-(({4}/DateDiff("n", "{1}", "{3}")*100)>=65 and ({4}/DateDiff("n", "{1}", "{3}")*100)<=74)*2-(({4}/DateDiff("n", "{1}", "{3}")*100)<65)*3 -(({5.b}+{5.c}+{5.d}+{5.e}+{5.f}+{5.g}+{5.h}+{5.i}+{5.j.1})>=1 and ({5.b}+{5.c}+{5.d}+{5.e}+{5.f}+{5.g}+{5.h}+{5.i}+{5.j.1})<=9)*1-(({5.b}+{5.c}+{5.d}+{5.e}+{5.f}+{5.g}+{5.h}+{5.i}+{5.j.1})>=10 and ({5.b}+{5.c}+{5.d}+{5.e}+{5.f}+{5.g}+{5.h}+{5.i}+{5.j.1})<=18)*2-(({5.b}+{5.c}+{5.d}+{5.e}+{5.f}+{5.g}+{5.h}+{5.i}+{5.j.1})>=19 and ({5.b}+{5.c}+{5.d}+{5.e}+{5.f}+{5.g}+{5.h}+{5.i}+{5.j.1})<=27)*3+{7.}+(({8.}+{9.})\2 + (({8.}+{9.}) Mod 2))
+
+
+<<EOF>>

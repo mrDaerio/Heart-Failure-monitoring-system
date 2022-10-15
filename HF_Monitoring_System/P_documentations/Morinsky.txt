@@ -1,0 +1,17 @@
+<<TITLE>>
+Morisky Medication Adherence Scale 
+<<DESCRIPTION>>
+Treatment adherence
+<<CONTENT>>
+#ID|QUESTION TEXT|ANSWER TYPE|ANSWER OPTIONS
+1| do you sometimes forget to take your prescribed medicines? |combo| Yes = 0; No = 1
+2| Over the past 2 weeks, were there any days when you did not take your prescribed medicines?|combo|Yes = 0;No = 1
+3|Have you stopped taking medications because you feel worse when you took it? |combo|Yes = 0;No = 1
+4| When you travel or leave home, do you sometime forget to bring along your meds? |combo|Yes = 0;No = 1
+5| did you take your prescribed medicine yesterday? |combo|Yes =0;No =1
+6| When you feel like your health is under control, do you sometime stop taking your meds? |combo|Yes =0;No =1
+7| Do you feel hassled about sticking to your prescribed treatment plan? |combo|Yes = 0;No = 1
+8| How often do you have difficulty remembering to take all your prescribed medicine? |combo| Never/rarely =1; Once in a while = 0 ; Sometimes = 0; usually = 0; All the time = 0
+<<SCORE>>
+{1}+{2}+{3}+{4}+{5}+{6}+{7}+{8}
+<<EOF>>
